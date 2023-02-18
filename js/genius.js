@@ -9,7 +9,7 @@ document.getElementById('first-card').addEventListener('click', function(){
     const newArea = totalArea + 'cm2'
 
     
-    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
+    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0 || isNaN(elemData.elementB)==true || isNaN(elemData.elementH)==true){
         return alert('Please enter valid data');
     }
 
@@ -26,7 +26,7 @@ document.getElementById('second-card').addEventListener('click', function(){
     const newArea = totalArea + 'cm2'
 
     
-    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
+    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0 || isNaN(elemData.elementB)==true || isNaN(elemData.elementH)==true){
         return alert('Please enter valid data');
     }
 
@@ -43,7 +43,7 @@ document.getElementById('third-card').addEventListener('click', function(){
     const newArea = totalArea + 'cm2'
 
     
-    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
+    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0 || isNaN(elemData.elementB)==true || isNaN(elemData.elementH)==true){
         return alert('Please enter valid data');
     }
 
@@ -60,7 +60,7 @@ document.getElementById('four-card').addEventListener('click', function(){
     const newArea = totalArea + 'cm2'
 
     // console.log(totalArea);
-    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
+    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0 || isNaN(elemData.elementB)==true || isNaN(elemData.elementH)==true){
         return alert('Please enter valid data');
     }
 
@@ -78,7 +78,7 @@ document.getElementById('five-card').addEventListener('click', function(){
     const newArea = totalArea + 'cm2'
 
     // console.log(totalArea);
-    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
+    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0 || isNaN(elemData.elementB)==true || isNaN(elemData.elementH)==true){
         return alert('Please enter valid data');
     }
 
@@ -95,7 +95,7 @@ document.getElementById('six-card').addEventListener('click', function(){
     const newArea = totalArea + 'cm2'
 
     // console.log(totalArea);
-    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
+    if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0 || isNaN(elemData.elementB)==true || isNaN(elemData.elementH)==true){
         return alert('Please enter valid data');
     }
 
