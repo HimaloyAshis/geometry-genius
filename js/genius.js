@@ -8,7 +8,7 @@ document.getElementById('first-card').addEventListener('click', function(){
 
     const newArea = totalArea + 'cm2'
 
-    // console.log(totalArea);
+    
     if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
         return alert('Please enter valid data');
     }
@@ -16,7 +16,7 @@ document.getElementById('first-card').addEventListener('click', function(){
     cardTable(serial, elemData.elementName,newArea )
     disAbledButton('first-card')
 })
-
+// Second card
 document.getElementById('second-card').addEventListener('click', function(){
     serial +=1;
     const elemData = getData('second-card-name', 'second-card-w', 'second-card-I')
@@ -25,7 +25,7 @@ document.getElementById('second-card').addEventListener('click', function(){
 
     const newArea = totalArea + 'cm2'
 
-    // console.log(totalArea);
+    
     if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
         return alert('Please enter valid data');
     }
@@ -33,6 +33,7 @@ document.getElementById('second-card').addEventListener('click', function(){
     cardTable(serial, elemData.elementName,newArea )
     disAbledButton('second-card')
 })
+// third card
 document.getElementById('third-card').addEventListener('click', function(){
     serial +=1;
     const elemData = getData('third-card-name', 'third-card-b', 'third-card-h')
@@ -41,7 +42,7 @@ document.getElementById('third-card').addEventListener('click', function(){
 
     const newArea = totalArea + 'cm2'
 
-    // console.log(totalArea);
+    
     if(elemData.elementB== '' || elemData.elementB<= 0 || elemData.elementH =='' || elemData.elementH<=0){
         return alert('Please enter valid data');
     }
