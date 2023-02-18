@@ -85,6 +85,7 @@ document.getElementById('five-card').addEventListener('click', function(){
     cardTable(serial, elemData.elementName,newArea )
     disAbledButton('five-card')
 })
+// sixth card
 document.getElementById('six-card').addEventListener('click', function(){
     serial +=1;
     const elemData = getData('six-card-name', 'six-card-a', 'six-card-b')
