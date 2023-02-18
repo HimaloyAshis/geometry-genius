@@ -103,6 +103,10 @@ document.getElementById('six-card').addEventListener('click', function(){
     disAbledButton('six-card')
 })
 
+ function anotherPage(){
+    window.location.href= "index2.html";
+}
+
 
 function disAbledButton(id){
     document.getElementById(id).setAttribute('disabled', true)
